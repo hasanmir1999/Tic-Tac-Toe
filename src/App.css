@@ -1,0 +1,45 @@
+.cel-container{
+    width: 550px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cel:nth-of-type(1){
+    border-top: none;
+    border-left: none;
+}
+
+
+.cel:nth-of-type(2){
+    border-top: none;
+}
+
+
+.cel:nth-of-type(3){
+    border-top: none;
+    border-right: none;
+}
+
+
+.cel:nth-of-type(4){
+    border-left: none;
+}
+
+.cel:nth-of-type(6){
+    border-right: none;
+}
+
+.cel:nth-of-type(7){
+    border-left: none;
+    border-bottom: none;
+}
+
+.cel:nth-of-type(8){
+    border-bottom: none;
+}
+
+.cel:nth-of-type(9){
+    border-right: none;
+    border-bottom: none;
+}

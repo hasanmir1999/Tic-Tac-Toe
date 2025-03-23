@@ -1,0 +1,24 @@
+.cel{
+    width: calc(550px / 3);
+    height: calc(500px / 3);
+    border: 2px solid #B9B28A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cel span{
+    color: #504B38;
+    font-size: 100px;
+    opacity: 0;
+    transition: .3s;
+}
+
+.cel span:hover{
+    opacity: 1;
+}
+
+.cel span.fill{
+    opacity: 1;
+}
