@@ -13,6 +13,9 @@
     font-size: 100px;
     opacity: 0;
     transition: .3s;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
 }
 
 .cel span:hover{
